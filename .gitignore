@@ -1,0 +1,34 @@
+# ------------------------------------------------------------------------------
+# Data & Model Files (Ignored at any subdirectory depth)
+# ------------------------------------------------------------------------------
+*.pkl
+*.pickle
+*.h5
+*.pt
+*.npy
+*.csv
+*.fits
+*.png
+*.out 
+*pid 
+**.log
+
+# ------------------------------------------------------------------------------
+# Python Caches & Environments (Ignored at any subdirectory depth)
+# ------------------------------------------------------------------------------
+**/__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# ------------------------------------------------------------------------------
+# Script Preservation Rules
+# ------------------------------------------------------------------------------
+# Allow Git to traverse into all subdirectories
+!*/
+
+# Explicitly ensure all Python scripts and .gitignore are tracked
+!*.py
+!.gitignore
+
